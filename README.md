@@ -1,0 +1,1 @@
+Aplicación móvil que se comunica a traves de web services a un servidor que administra entradas y salidas de aparatos RFID para desplegarlos en pantalla.
