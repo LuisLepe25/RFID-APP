@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PruebaAPP.EditarUsuario"
+             Title="Editar Usuario">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="ID:"/>
+            <Entry Placeholder="Ingrese el nuevo ID" Keyboard="Numeric" Text="{Binding ID}" IsEnabled="False"/>
+            <Label Text="Nombre:"/>
+            <Entry Placeholder="Ingrese el nuevo nombre" Text="{Binding Nombre}"/>
+            <Label Text="RFID:"/>
+            <Entry Placeholder="Ingrese el nuevo RFID" Keyboard="Numeric" Text="{Binding RFID}"/>
+
+            <Button x:Name="btnGuardar" Text="Guardar" Clicked="btnGuardar_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,5 +1,7 @@
 FormsViewGroup
 Newtonsoft.Json
+Plugin.Connectivity.Abstractions
+Plugin.Connectivity
 System.Runtime
 Xamarin.Android.Support.Animated.Vector.Drawable
 Xamarin.Android.Support.Annotations

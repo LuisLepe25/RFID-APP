@@ -295,3 +295,12 @@ C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaA
 C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\Newtonsoft.Json.dll
 C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\obj\x86\Debug\PruebaAPP.UWP.csprojResolveAssemblyReference.cache
 C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\obj\x86\Debug\PruebaAPP.UWP.C_.Users.luisd.Documents.Visual_Studio_2017.Projects.PruebaAPP.PruebaAPP.PruebaAPP.adminUsuarios.xaml.g.cs
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\Plugin.Connectivity.Abstractions.dll
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\Plugin.Connectivity.Abstractions.pdb
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\Plugin.Connectivity.dll
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\Plugin.Connectivity.pdb
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\obj\x86\Debug\Plugin.Connectivity.pri.xml
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\obj\x86\Debug\PruebaAPP.UWP.C_.Users.luisd.Documents.Visual_Studio_2017.Projects.PruebaAPP.PruebaAPP.PruebaAPP.EditarUsuario.xaml.g.cs
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\obj\x86\Debug\PruebaAPP.UWP.C_.Users.luisd.Documents.Visual_Studio_2017.Projects.PruebaAPP.PruebaAPP.PruebaAPP.MenuRegistros.xaml.g.cs
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\obj\x86\Debug\PruebaAPP.UWP.C_.Users.luisd.Documents.Visual_Studio_2017.Projects.PruebaAPP.PruebaAPP.PruebaAPP.RegistrosEntradas.xaml.g.cs
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\obj\x86\Debug\PruebaAPP.UWP.C_.Users.luisd.Documents.Visual_Studio_2017.Projects.PruebaAPP.PruebaAPP.PruebaAPP.RegistrosSalidas.xaml.g.cs

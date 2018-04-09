@@ -2,8 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:PruebaAPP"
-             x:Class="PruebaAPP.MainPage">
+             x:Class="PruebaAPP.MainPage"
+             Title="Bienvenido administrador">
 
-    <Button x:Name="btnUsuario" Text="Administrar usuarios" Clicked="btnUsuario_Clicked" />
+    <StackLayout>
+        <Button x:Name="btnUsuario" Text="Administrar usuarios" Clicked="btnUsuario_Clicked" />
+        <Button x:Name="btnLogs" Text="Ver registros" Clicked="btnLogs_Clicked"/>
+    </StackLayout>
+    
 
 </ContentPage>

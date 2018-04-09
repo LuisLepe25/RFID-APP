@@ -264,6 +264,17 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
       },
+      "Xam.Plugin.Connectivity/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        }
+      },
       "Xamarin.Forms/2.5.0.280555": {
         "type": "package",
         "compile": {
@@ -719,6 +730,17 @@
         "build": {
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
         }
       },
       "Xamarin.Forms/2.5.0.280555": {
@@ -1179,6 +1201,17 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
       },
+      "Xam.Plugin.Connectivity/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        }
+      },
       "Xamarin.Forms/2.5.0.280555": {
         "type": "package",
         "compile": {
@@ -1634,6 +1667,17 @@
         "build": {
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
         }
       },
       "Xamarin.Forms/2.5.0.280555": {
@@ -2094,6 +2138,17 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
       },
+      "Xam.Plugin.Connectivity/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        }
+      },
       "Xamarin.Forms/2.5.0.280555": {
         "type": "package",
         "compile": {
@@ -2549,6 +2604,17 @@
         },
         "native": {
           "runtimes/win10-x86/nativeassets/uap10.0.15138/clrcompression.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
         }
       },
       "Xamarin.Forms/2.5.0.280555": {
@@ -3007,6 +3073,17 @@
         "type": "package",
         "build": {
           "build/_._": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
         }
       },
       "Xamarin.Forms/2.5.0.280555": {
@@ -6555,6 +6632,71 @@
         "runtimes/win10-x86/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
     },
+    "Xam.Plugin.Connectivity/3.1.1": {
+      "sha512": "X92JJFbVT8TRVaikzqjonP766jU1xeP6UgvDwu+aWA6Ll00Zjz0S/WevmzzxuPREbsYt//DdLWocy3lbbaJHPA==",
+      "type": "package",
+      "path": "xam.plugin.connectivity/3.1.1",
+      "files": [
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Connectivity.dll",
+        "lib/MonoAndroid10/Plugin.Connectivity.pdb",
+        "lib/MonoAndroid10/Plugin.Connectivity.xml",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.dll",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.xml",
+        "lib/UAP10/Plugin.Connectivity.XML",
+        "lib/UAP10/Plugin.Connectivity.dll",
+        "lib/UAP10/Plugin.Connectivity.pdb",
+        "lib/UAP10/Plugin.Connectivity.pri",
+        "lib/UAP10/Plugin.Connectivity/Properties/Plugin.Connectivity.rd.xml",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.Abstractions.pdb",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.Abstractions.xml",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.dll",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.pdb",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.xml",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.dll",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.pdb",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.xml",
+        "lib/XamarinTVOS/Plugin.Connectivity.Abstractions.dll",
+        "lib/XamarinTVOS/Plugin.Connectivity.Abstractions.pdb",
+        "lib/XamarinTVOS/Plugin.Connectivity.Abstractions.xml",
+        "lib/XamarinTVOS/Plugin.Connectivity.dll",
+        "lib/XamarinTVOS/Plugin.Connectivity.pdb",
+        "lib/XamarinTVOS/Plugin.Connectivity.xml",
+        "lib/net45/Plugin.Connectivity.Abstractions.dll",
+        "lib/net45/Plugin.Connectivity.Abstractions.pdb",
+        "lib/net45/Plugin.Connectivity.Abstractions.xml",
+        "lib/net45/Plugin.Connectivity.XML",
+        "lib/net45/Plugin.Connectivity.dll",
+        "lib/net45/Plugin.Connectivity.pdb",
+        "lib/netcoreapp2.0/Plugin.Connectivity.Abstractions.dll",
+        "lib/netcoreapp2.0/Plugin.Connectivity.Abstractions.pdb",
+        "lib/netcoreapp2.0/Plugin.Connectivity.Abstractions.xml",
+        "lib/netcoreapp2.0/Plugin.Connectivity.deps.json",
+        "lib/netcoreapp2.0/Plugin.Connectivity.dll",
+        "lib/netcoreapp2.0/Plugin.Connectivity.xml",
+        "lib/netstandard1.0/Plugin.Connectivity.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Connectivity.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Connectivity.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Connectivity.deps.json",
+        "lib/netstandard1.0/Plugin.Connectivity.dll",
+        "lib/netstandard1.0/Plugin.Connectivity.pdb",
+        "lib/netstandard1.0/Plugin.Connectivity.xml",
+        "lib/tizen40/Plugin.Connectivity.Abstractions.dll",
+        "lib/tizen40/Plugin.Connectivity.Abstractions.pdb",
+        "lib/tizen40/Plugin.Connectivity.Abstractions.xml",
+        "lib/tizen40/Plugin.Connectivity.deps.json",
+        "lib/tizen40/Plugin.Connectivity.dll",
+        "xam.plugin.connectivity.3.1.1.nupkg.sha512",
+        "xam.plugin.connectivity.nuspec"
+      ]
+    },
     "Xamarin.Forms/2.5.0.280555": {
       "sha512": "JVmozDJQNKEVhN4NG5EiG2IBua0+xK9b+t1L/VUN9HeIXkc8BubZM6UnnE1CftlGt0U2+JGTQSL79uxpx0KCpQ==",
       "type": "package",
@@ -6746,6 +6888,7 @@
     "UAP,Version=v10.0.16299": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.0.1",
       "Newtonsoft.Json >= 11.0.2",
+      "Xam.Plugin.Connectivity >= 3.1.1",
       "Xamarin.Forms >= 2.5.0.280555"
     ]
   },
@@ -6796,6 +6939,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[11.0.2, )"
+          },
+          "Xam.Plugin.Connectivity": {
+            "target": "Package",
+            "version": "[3.1.1, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
