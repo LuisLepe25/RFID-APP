@@ -5,14 +5,16 @@
              Title="Editar Usuario">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="ID:"/>
-            <Entry Placeholder="Ingrese el nuevo ID" Keyboard="Numeric" Text="{Binding ID}" IsEnabled="False"/>
+            <Label x:Name="lblID" Text="ID:"/>
+            <Entry x:Name="txtID" Placeholder="Ingrese el nuevo ID" Keyboard="Numeric" Text="{Binding ID}" IsEnabled="False"/>
             <Label Text="Nombre:"/>
-            <Entry Placeholder="Ingrese el nuevo nombre" Text="{Binding Nombre}"/>
+            <Entry x:Name="txtNombre" Placeholder="Ingrese el nuevo nombre" Text="{Binding Nombre}"/>
             <Label Text="RFID:"/>
-            <Entry Placeholder="Ingrese el nuevo RFID" Keyboard="Numeric" Text="{Binding RFID}"/>
+            <Entry x:Name="txtRFID" Placeholder="Ingrese el nuevo RFID" Keyboard="Numeric" Text="{Binding RFID}"/>
 
-            <Button x:Name="btnGuardar" Text="Guardar" Clicked="btnGuardar_Clicked" />
+            <Button x:Name="btnGuardar" Text="Crear" Clicked="btnGuardar_Clicked" IsVisible="False"/>
+            <Button x:Name="btnEditar" Text="Editar" Clicked="btnEditar_Clicked" />
+            <Button x:Name="btnEliminar" Text="Eliminar" Clicked="btnEliminar_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

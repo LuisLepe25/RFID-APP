@@ -8,7 +8,6 @@
     <StackLayout>
         <Button x:Name="btnUsuario" Text="Administrar usuarios" Clicked="btnUsuario_Clicked" />
         <Button x:Name="btnLogs" Text="Ver registros" Clicked="btnLogs_Clicked"/>
+        <Button x:Name="btnPermisos" Text="Editar Permisos" Clicked="btnPermisos_Clicked"/>
     </StackLayout>
-    
-
 </ContentPage>

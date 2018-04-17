@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PruebaAPP.PermisoListaPermisos"
+             Title="Lista de Permisos del Usuario"> 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="tItemRefresh" Text="Refrescar" Icon="{Binding PathImagenRefresh}" Order="Primary" Activated="tItemRefresh_Activated"/>
+        <ToolbarItem x:Name="tItemCrear" Text="Crear" Icon="{Binding PathImagenAgregar}" Order="Secondary" Activated="tItemCrear_Activated"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="0,0,0,0"
+                    Android="10,12,10,12"
+                    WinPhone="10,12,10,12"></OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <StackLayout>
+            <!--   barra de progresos -->
+            <AbsoluteLayout x:Name="absLayout" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <StackLayout Padding="6" Orientation="Horizontal" AbsoluteLayout.LayoutBounds="0.5, 0.5, -1, -1" AbsoluteLayout.LayoutFlags="PositionProportional">
+                    <ProgressBar
+                    x:Name="barraProgreso"
+                    Progress="0.2"
+                    WidthRequest="300"
+                    HeightRequest="20"
+                    VerticalOptions="Center" />
+                </StackLayout>
+                <StackLayout Padding="6" Orientation="Horizontal" AbsoluteLayout.LayoutBounds="0.5, 0.55, -1, -1" AbsoluteLayout.LayoutFlags="PositionProportional">
+                    <Label 
+                    x:Name="lblBarraProgreso" 
+                    FontSize="20" 
+                    Text="Cargando..."
+                    VerticalOptions="Center"/>
+                </StackLayout>
+            </AbsoluteLayout>
+            <AbsoluteLayout x:Name="absVacio" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" IsVisible="False">
+                <StackLayout Padding="6" Orientation="Horizontal" AbsoluteLayout.LayoutBounds="0.5, 0.5, -1, -1" AbsoluteLayout.LayoutFlags="PositionProportional">
+                    <Label Text="No hay datos disponibles" TextColor="Gray"/>
+                </StackLayout>
+            </AbsoluteLayout>
+            <!--   lista de permisos del usuario -->
+            <ListView x:Name="LstPermisos" ItemsSource="{Binding LstPermisoSrc}" ItemSelected="LstPermisos_ItemSelected" IsVisible="False">
+                <ListView.Header>
+                    <Grid> <!--  ID, ID_USUARIO, ID_LECTOR, HORA_ENTRADA, HORA_SALIDA -->
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20*" />
+                            <ColumnDefinition Width="40*" />
+                            <ColumnDefinition Width="40*" />
+                        </Grid.ColumnDefinitions>
+                        <StackLayout Grid.Row="0" Grid.Column="0">
+                            <Label Text="Lector" TextColor="Black"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="0" Grid.Column="1">
+                            <Label Text="Hora Entrada" TextColor="Black"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="0" Grid.Column="2">
+                            <Label Text="Hora Salida" TextColor="Black"></Label>
+                        </StackLayout>
+                    </Grid>
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="20*" />
+                                    <ColumnDefinition Width="40*" />
+                                    <ColumnDefinition Width="40*" />
+                                </Grid.ColumnDefinitions>
+                                <!--
+                                <StackLayout Grid.Row="0" Grid.Column="0">
+                                    <Label Text="{Binding ID}" TextColor="Black"></Label>
+                                </StackLayout>
+                                <StackLayout Grid.Row="0" Grid.Column="1">
+                                    <Label Text="{Binding ID_Usuario}" TextColor="Black"></Label>
+                                </StackLayout>
+                                -->
+                                <StackLayout Grid.Row="0" Grid.Column="0">
+                                    <Label Text="{Binding ID_Lector}" TextColor="Black"></Label>
+                                </StackLayout>
+                                <StackLayout Grid.Row="0" Grid.Column="1">
+                                    <Label Text="{Binding Hora_Entrada, StringFormat='{}{0:hh}:{0:mm}:{0:ss}'}" TextColor="Black"></Label>
+                                </StackLayout>
+                                <StackLayout Grid.Row="0" Grid.Column="2">
+                                    <Label Text="{Binding Hora_Salida, StringFormat='{}{0:hh}:{0:mm}:{0:ss}'}" TextColor="Black"></Label>
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

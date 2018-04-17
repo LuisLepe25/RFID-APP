@@ -19,13 +19,16 @@ namespace PruebaAPP
 
         public async void btnUsuario_Clicked(object sender, EventArgs args)
         {
-            //TODO: adminUsuarios no aparece para ponerlo como pagina
             await Navigation.PushAsync(new AdminUsuarios());
         }
 
         private async void btnLogs_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MenuRegistros());
+        }
+        private async void btnPermisos_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PermisoListaUsuario());
         }
     }
 }

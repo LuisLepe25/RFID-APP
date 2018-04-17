@@ -3,17 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PruebaAPP.AdminUsuarios"
              Title="Administracion de Usuarios">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="tItemRefresh" Text="Refrescar" Icon="{Binding PathImagenRefresh}" Order="Primary" Activated="tItemRefresh_Activated"/>
+        <ToolbarItem x:Name="tItemCrear" Text="Crear" Icon="{Binding PathImagenAgregar}" Order="Secondary" Activated="tItemCrear_Activated"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness"
                     iOS="0,0,0,0"
                     Android="10,12,10,12"
                     WinPhone="10,12,10,12"></OnPlatform>
-    </ContentPage.Padding>
-    <StackLayout BackgroundColor="BlanchedAlmond">
-        
-        
-    </StackLayout>
-    
+    </ContentPage.Padding>    
     <StackLayout>
         <AbsoluteLayout x:Name="absLayout" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
             <!-- 
@@ -36,6 +35,11 @@
                     FontSize="20" 
                     Text="Cargando..."
                     VerticalOptions="Center"/>
+            </StackLayout>
+        </AbsoluteLayout>
+        <AbsoluteLayout x:Name="absVacio" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" IsVisible="False">
+            <StackLayout Padding="6" Orientation="Horizontal" AbsoluteLayout.LayoutBounds="0.5, 0.5, -1, -1" AbsoluteLayout.LayoutFlags="PositionProportional">
+                <Label Text="No hay datos disponibles" TextColor="Gray"/>
             </StackLayout>
         </AbsoluteLayout>
         

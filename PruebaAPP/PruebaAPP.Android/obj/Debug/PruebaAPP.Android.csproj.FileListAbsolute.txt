@@ -22,6 +22,19 @@ C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaA
 C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\obj\Debug\PruebaAPP.Droid.MenuRegistros.xaml.g.cs
 C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\obj\Debug\PruebaAPP.Droid.RegistrosEntradas.xaml.g.cs
 C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\obj\Debug\PruebaAPP.Droid.RegistrosSalidas.xaml.g.cs
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\obj\Debug\PruebaAPP.Droid.EditarPermisos.xaml.g.cs
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\obj\Debug\PruebaAPP.Droid.PermisoListaUsuario.xaml.g.cs
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\obj\Debug\res\drawable\refresh.png
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\obj\Debug\res\drawable-hdpi\refresh.png
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\obj\Debug\res\drawable-xhdpi\refresh.png
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\obj\Debug\res\drawable-xxhdpi\refresh.png
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\obj\Debug\res\drawable\agregar.png
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\obj\Debug\res\drawable-hdpi\agregar.png
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\obj\Debug\res\drawable-xhdpi\agregar.png
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\obj\Debug\res\drawable-xxhdpi\agregar.png
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\obj\Debug\PruebaAPP.Droid.PermisoListaPermisos.xaml.g.cs
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\obj\Debug\PruebaAPP.Android.csprojResolveAssemblyReference.cache
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\bin\Debug\PruebaAPP.Android.dll
 C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\bin\Debug\Mono.Android.pdb
 C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\bin\Debug\mscorlib.pdb
 C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\bin\Debug\Plugin.Connectivity.Abstractions.pdb
@@ -71,4 +84,3 @@ C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaA
 C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
 C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\obj\Debug\linksrc\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.Android\obj\Debug\PruebaAPP.Android.csprojResolveAssemblyReference.cache

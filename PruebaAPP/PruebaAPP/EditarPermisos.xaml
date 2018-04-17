@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PruebaAPP.EditarPermisos"
+             Title="Editar Permisos">
+
+    <?contenido de la pagina?>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="lblID" Text="ID:"/>
+            <Entry x:Name="txtID" Keyboard="Numeric" Text="{Binding ID}" IsEnabled="False"/>
+            <Label Text="ID Usuario:"/>
+            <Entry x:Name="txtID_Usuario" Placeholder="Ingrese el ID del Usuario" Keyboard="Numeric" Text="{Binding ID_Usuario}" IsEnabled="False"/>
+            <Label Text="ID Lector:"/>
+            <Entry x:Name="txtID_Lector" Placeholder="Ingrese el ID del Lector" Keyboard="Numeric" Text="{Binding ID_Lector}" IsEnabled="False"/>
+            <Label Text="Hora entrada:"/>
+            <TimePicker x:Name="timeEntrada" Time="{Binding HoraEntrada}"/>
+            <Label Text="Hora salida:"/>
+            <TimePicker x:Name="timeSalida" Time="{Binding HoraSalida}"/>
+
+            <Button x:Name="btnGuardar" Text="Crear" Clicked="btnGuardar_Clicked" IsVisible="False"/>
+            <Button x:Name="btnEditar" Text="Editar" Clicked="btnEditar_Clicked"/>
+            <Button x:Name="btnEliminar" Text="Eliminar" Clicked="btnEliminar_Clicked"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

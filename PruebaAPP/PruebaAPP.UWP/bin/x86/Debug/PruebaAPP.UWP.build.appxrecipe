@@ -541,8 +541,11 @@
     <AppxPackagedFile Include="C:\Users\luisd\.nuget\packages\xamarin.forms\2.5.0.280555\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\Assets\Icons\agregar.png">
+      <PackagePath>Assets\Icons\agregar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\Assets\Icons\refresh.png">
+      <PackagePath>Assets\Icons\refresh.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\Assets\LockScreenLogo.scale-100.png">
       <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>
@@ -662,6 +665,9 @@
     <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\PruebaAPP.UWP.xr.xml">
       <PackagePath>PruebaAPP.UWP.xr.xml</PackagePath>

@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-09T05:14:45.814</Modified>
+      <Modified>2018-04-14T23:41:17.798</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\PruebaAPP.UWP.exe">
       <PackagePath>entrypoint\PruebaAPP.UWP.exe</PackagePath>
-      <Modified>2018-04-09T05:14:38.300</Modified>
+      <Modified>2018-04-14T23:41:11.181</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisd\.nuget\packages\newtonsoft.json\11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -723,9 +723,13 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2018-02-15T01:07:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-03-27T03:20:38.305</Modified>
+    <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\Assets\Icons\agregar.png">
+      <PackagePath>Assets\Icons\agregar.png</PackagePath>
+      <Modified>2018-04-13T15:52:33.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\Assets\Icons\refresh.png">
+      <PackagePath>Assets\Icons\refresh.png</PackagePath>
+      <Modified>2018-04-13T04:54:46.186</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\Assets\LockScreenLogo.scale-100.png">
       <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>
@@ -877,6 +881,10 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-03-27T03:20:37.901</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2018-03-27T03:20:38.305</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\PruebaAPP.UWP.xr.xml">
       <PackagePath>PruebaAPP.UWP.xr.xml</PackagePath>
       <Modified>2018-03-27T03:22:40.281</Modified>
@@ -892,11 +900,11 @@
     <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-09T05:14:44.093</Modified>
+      <Modified>2018-04-14T23:41:15.442</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\Core\PruebaAPP.UWP.exe">
       <PackagePath>PruebaAPP.UWP.exe</PackagePath>
-      <Modified>2018-04-09T05:14:45.791</Modified>
+      <Modified>2018-04-14T23:41:17.737</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

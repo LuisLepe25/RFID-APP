@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Button x:Name="btnEntradas" Text="Ver entradas" Clicked="btnEntradas_Clicked"/>
-            <Button x:Name="btnSalidad" Text="Ver salidad" Clicked="btnSalidad_Clicked"/>
+            <Button x:Name="btnSalidad" Text="Ver salidas" Clicked="btnSalidad_Clicked"/>
             <Button x:Name="btnLogsUsuario" Text="Ver movimientos por usuario" Clicked="btnLogsUsuario_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
