@@ -65,8 +65,8 @@ namespace PruebaAPP
                 BindingContext = this;
                 InitializeComponent();
                 //CrossConnectivity.Current.ConnectivityChanged += Current_ConnectivityChanged;
-                barraProgreso.ProgressTo(0.5, 500, Easing.Linear);
-                ObtenerUsuarios();
+                //barraProgreso.ProgressTo(0.5, 500, Easing.Linear);
+                //ObtenerUsuarios();
             } catch (Exception ex)
             {
                 if(ex.InnerException.Message != null)
@@ -192,6 +192,17 @@ namespace PruebaAPP
         private async void tItemCrear_Activated(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new EditarUsuario());
+        }
+
+        protected async override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            await barraProgreso.ProgressTo(0.2, 500, Easing.Linear);
+            absVacio.IsVisible = false;
+            LstUsuarios.IsVisible = false;
+            absLayout.IsVisible = true;
+            ObtenerUsuarios();
         }
     }
 }

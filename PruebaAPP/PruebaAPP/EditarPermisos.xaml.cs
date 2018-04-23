@@ -123,7 +123,15 @@ namespace PruebaAPP
                         Hora_Salida = tSalida
                     };
                     String s = JsonConvert.SerializeObject(p);
-                    var contenido = new StringContent(JsonConvert.SerializeObject(p), Encoding.UTF8, "application/json");
+                    /*
+                    String s = "{" +
+                        "\"ID_Usuario\":\"" + p.ID_Usuario + "\","+ 
+                        "\"ID_Lector\":\"" + p.ID_Lector + "\"," +
+                        "\"Hora_Entrada\":\"" + p.Hora_Entrada.ToString() + "\"," +
+                        "\"Hora_Salida\":\"" + p.Hora_Salida.ToString() + "\"" +
+                        "}";
+                    */
+                    var contenido = new StringContent(s, Encoding.UTF8, "application/json");
                     HttpResponseMessage response = await client.PostAsync("http://201.172.20.116/permiso/crear/", contenido);
                     if (response.StatusCode == HttpStatusCode.OK || response.StatusCode == HttpStatusCode.Accepted || response.StatusCode == HttpStatusCode.NoContent)
                     {

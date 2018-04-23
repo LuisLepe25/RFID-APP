@@ -2,6 +2,8 @@ FormsViewGroup
 Newtonsoft.Json
 Plugin.Connectivity.Abstractions
 Plugin.Connectivity
+Plugin.LocalNotifications.Abstractions
+Plugin.LocalNotifications
 System.Runtime
 Xamarin.Android.Support.Animated.Vector.Drawable
 Xamarin.Android.Support.Annotations
@@ -24,5 +26,6 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
+System.Resources.ResourceManager
 System.ComponentModel
 System.Reflection.Extensions

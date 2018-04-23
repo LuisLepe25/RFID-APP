@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-14T23:41:17.798</Modified>
+      <Modified>2018-04-20T17:15:29.454</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\PruebaAPP.UWP.exe">
       <PackagePath>entrypoint\PruebaAPP.UWP.exe</PackagePath>
-      <Modified>2018-04-14T23:41:11.181</Modified>
+      <Modified>2018-04-20T17:15:23.510</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisd\.nuget\packages\newtonsoft.json\11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -707,6 +707,14 @@
       <PackagePath>Plugin.Connectivity.dll</PackagePath>
       <Modified>2018-01-31T18:06:12.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisd\.nuget\packages\xam.plugins.notifier\2.1.0\lib\UAP10\Plugin.LocalNotifications.Abstractions.dll">
+      <PackagePath>Plugin.LocalNotifications.Abstractions.dll</PackagePath>
+      <Modified>2017-03-11T17:07:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisd\.nuget\packages\xam.plugins.notifier\2.1.0\lib\UAP10\Plugin.LocalNotifications.dll">
+      <PackagePath>Plugin.LocalNotifications.dll</PackagePath>
+      <Modified>2017-03-11T17:07:00.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisd\.nuget\packages\xamarin.forms\2.5.0.280555\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
       <Modified>2018-02-15T01:07:36.000</Modified>
@@ -900,11 +908,11 @@
     <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-14T23:41:15.442</Modified>
+      <Modified>2018-04-20T17:15:26.917</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\Core\PruebaAPP.UWP.exe">
       <PackagePath>PruebaAPP.UWP.exe</PackagePath>
-      <Modified>2018-04-14T23:41:17.737</Modified>
+      <Modified>2018-04-20T17:15:29.382</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

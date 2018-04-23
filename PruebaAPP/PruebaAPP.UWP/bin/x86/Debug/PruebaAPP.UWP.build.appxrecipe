@@ -529,6 +529,12 @@
     <AppxPackagedFile Include="C:\Users\luisd\.nuget\packages\xam.plugin.connectivity\3.1.1\lib\UAP10\Plugin.Connectivity.dll">
       <PackagePath>Plugin.Connectivity.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisd\.nuget\packages\xam.plugins.notifier\2.1.0\lib\UAP10\Plugin.LocalNotifications.Abstractions.dll">
+      <PackagePath>Plugin.LocalNotifications.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luisd\.nuget\packages\xam.plugins.notifier\2.1.0\lib\UAP10\Plugin.LocalNotifications.dll">
+      <PackagePath>Plugin.LocalNotifications.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisd\.nuget\packages\xamarin.forms\2.5.0.280555\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
     </AppxPackagedFile>

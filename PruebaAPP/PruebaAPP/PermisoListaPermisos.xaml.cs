@@ -68,8 +68,8 @@ namespace PruebaAPP
                 BindingContext = this;
                 InitializeComponent();
                 //CrossConnectivity.Current.ConnectivityChanged += Current_ConnectivityChanged;
-                barraProgreso.ProgressTo(0.5, 500, Easing.Linear);
-                ObtenerPermisos();
+                //barraProgreso.ProgressTo(0.5, 500, Easing.Linear);
+                //ObtenerPermisos();
             }
             catch (Exception ex)
             {
@@ -159,6 +159,17 @@ namespace PruebaAPP
 
         private async void tItemRefresh_Activated(object sender, EventArgs e)
         {
+            await barraProgreso.ProgressTo(0.2, 500, Easing.Linear);
+            absVacio.IsVisible = false;
+            LstPermisos.IsVisible = false;
+            absLayout.IsVisible = true;
+            ObtenerPermisos();
+        }
+
+        protected async override void OnAppearing()
+        {
+            base.OnAppearing();
+
             await barraProgreso.ProgressTo(0.2, 500, Easing.Linear);
             absVacio.IsVisible = false;
             LstPermisos.IsVisible = false;

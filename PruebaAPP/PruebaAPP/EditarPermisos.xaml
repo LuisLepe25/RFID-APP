@@ -17,7 +17,7 @@
             <TimePicker x:Name="timeEntrada" Time="{Binding HoraEntrada}"/>
             <Label Text="Hora salida:"/>
             <TimePicker x:Name="timeSalida" Time="{Binding HoraSalida}"/>
-
+            
             <Button x:Name="btnGuardar" Text="Crear" Clicked="btnGuardar_Clicked" IsVisible="False"/>
             <Button x:Name="btnEditar" Text="Editar" Clicked="btnEditar_Clicked"/>
             <Button x:Name="btnEliminar" Text="Eliminar" Clicked="btnEliminar_Clicked"/>

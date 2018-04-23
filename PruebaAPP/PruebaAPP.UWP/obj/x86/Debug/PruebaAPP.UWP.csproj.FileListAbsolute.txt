@@ -307,3 +307,5 @@ C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaA
 C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\obj\x86\Debug\PruebaAPP.UWP.C_.Users.luisd.Documents.Visual_Studio_2017.Projects.PruebaAPP.PruebaAPP.PruebaAPP.PermisoListaUsuario.xaml.g.cs
 C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\obj\x86\Debug\PruebaAPP.UWP.csprojResolveAssemblyReference.cache
 C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\obj\x86\Debug\PruebaAPP.UWP.C_.Users.luisd.Documents.Visual_Studio_2017.Projects.PruebaAPP.PruebaAPP.PruebaAPP.PermisoListaPermisos.xaml.g.cs
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\Plugin.LocalNotifications.Abstractions.dll
+C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\Plugin.LocalNotifications.dll

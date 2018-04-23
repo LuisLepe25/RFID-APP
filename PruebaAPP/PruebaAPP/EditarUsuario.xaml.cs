@@ -157,7 +157,9 @@ namespace PruebaAPP
                     if (response.StatusCode == HttpStatusCode.OK || response.StatusCode == HttpStatusCode.Accepted || response.StatusCode == HttpStatusCode.NoContent)
                     {
                         await DisplayAlert("Actualización exitosa", "La información del usuario se ha actualizado exitosamente.", "Cerrar");
-                    } else
+                        await Navigation.PopAsync();
+                    }
+                    else
                     {
                         await DisplayAlert("Algo falló", "El servidor contesto con statusCode " + response.StatusCode + ", probablemente tu solicitud no se realizó correctamente.", "Cerrar");
                     }

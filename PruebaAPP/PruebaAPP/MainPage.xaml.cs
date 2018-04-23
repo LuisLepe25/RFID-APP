@@ -7,6 +7,7 @@ using System.Net.Http;
 using Xamarin.Forms;
 using Newtonsoft.Json;
 using WebServiceRest_RFID.Models;
+using Plugin.LocalNotifications;
 
 namespace PruebaAPP
 {
@@ -15,7 +16,8 @@ namespace PruebaAPP
 		public MainPage()
 		{
 			InitializeComponent();
-		}
+            CrossLocalNotifications.Current.Show("title", "body");
+        }
 
         public async void btnUsuario_Clicked(object sender, EventArgs args)
         {
