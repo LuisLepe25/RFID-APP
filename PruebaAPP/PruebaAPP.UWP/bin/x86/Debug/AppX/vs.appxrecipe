@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-20T17:15:29.454</Modified>
+      <Modified>2018-04-24T04:01:12.866</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\PruebaAPP.UWP.exe">
       <PackagePath>entrypoint\PruebaAPP.UWP.exe</PackagePath>
-      <Modified>2018-04-20T17:15:23.510</Modified>
+      <Modified>2018-04-24T04:00:58.910</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisd\.nuget\packages\newtonsoft.json\11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -908,11 +908,11 @@
     <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-20T17:15:26.917</Modified>
+      <Modified>2018-04-24T04:01:09.818</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luisd\Documents\Visual Studio 2017\Projects\PruebaAPP\PruebaAPP\PruebaAPP.UWP\bin\x86\Debug\Core\PruebaAPP.UWP.exe">
       <PackagePath>PruebaAPP.UWP.exe</PackagePath>
-      <Modified>2018-04-20T17:15:29.382</Modified>
+      <Modified>2018-04-24T04:01:12.830</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

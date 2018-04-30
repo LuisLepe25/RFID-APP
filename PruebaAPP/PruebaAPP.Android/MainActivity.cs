@@ -6,6 +6,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Plugin.LocalNotifications;
+using Android.Content;
 
 namespace PruebaAPP.Droid
 {
@@ -20,6 +22,11 @@ namespace PruebaAPP.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+
+            //Seleccionamos el icono que tendran las alertas
+            LocalNotificationsImplementation.NotificationIconId = Resource.Drawable.alerta;
+            Intent notificar = new Intent(this, typeof(NotificarIntentosNoAutorizados));
+            StartService(notificar);
             LoadApplication(new App());
         }
     }

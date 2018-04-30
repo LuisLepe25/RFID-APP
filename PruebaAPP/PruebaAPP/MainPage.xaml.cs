@@ -16,7 +16,6 @@ namespace PruebaAPP
 		public MainPage()
 		{
 			InitializeComponent();
-            CrossLocalNotifications.Current.Show("title", "body");
         }
 
         public async void btnUsuario_Clicked(object sender, EventArgs args)
@@ -31,6 +30,11 @@ namespace PruebaAPP
         private async void btnPermisos_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new PermisoListaUsuario());
+        }
+
+        private void btnNotificacion_Clicked(object sender, EventArgs e)
+        {
+            CrossLocalNotifications.Current.Show("title", "body");
         }
     }
 }

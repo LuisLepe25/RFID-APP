@@ -1,21 +1,23 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
 namespace WebServiceRest_RFID.Models
 {
+    [JsonObject(MemberSerialization.OptIn)]
     public class Log
     {
-        [Newtonsoft.Json.JsonProperty(PropertyName = "ID_Usuario")]
+        [JsonProperty(PropertyName = "ID_Usuario")]
         public int ID_Usuario {get; set;}
-        [Newtonsoft.Json.JsonProperty(PropertyName = "RFID")]
+        [JsonProperty(PropertyName = "RFID")]
         public long RFID { get; set; }
-        [Newtonsoft.Json.JsonProperty(PropertyName = "Fecha")]
+        [JsonProperty(PropertyName = "Fecha")]
         public DateTime Fecha { get; set; }
-        [Newtonsoft.Json.JsonProperty(PropertyName = "ID_Lector")]
+        [JsonProperty(PropertyName = "ID_Lector")]
         public int ID_Lector { get; set; }
-        [Newtonsoft.Json.JsonProperty(PropertyName = "Estatus")]
+        [JsonProperty(PropertyName = "Estatus")]
         public int Estatus { get; set; }
 
         public Log(int ID_Usuario, long RFID, DateTime Fecha, int ID_Lector, int Estatus)
